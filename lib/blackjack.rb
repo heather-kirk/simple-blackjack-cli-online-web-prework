@@ -36,7 +36,7 @@ def hit?(card)
   if get_user_input == "s"
     display_card_total
   else get_user_input == "h"
-  deal_card = display_card_total + rand
+  display_card_total += card
 end
 end
 
