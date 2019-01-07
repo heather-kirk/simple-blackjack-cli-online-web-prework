@@ -25,9 +25,9 @@ end
 def initial_round
   deal_card
   deal_card
-  total = deal_card+ deal_card+ display_card_total(total)
+  sum = deal_card+ deal_card+ display_card_total(sum)
 
-  "Your cards add up to #{total}"
+  "Your cards add up to #{sum}"
 end
 
 def hit?(card)
